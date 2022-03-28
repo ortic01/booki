@@ -1,0 +1,377 @@
+html, body {
+    font-family: 'Raleway', sans-serif;  
+}
+.flexCentre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexColumnCentre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flexColumnAround {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.flexColumnBetween {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.texteGras {
+    font-weight: bold;
+}
+.decoration {
+text-decoration: none;     
+}  
+.bordureNone {
+    border: none;
+} 
+.backgroundBleu {
+    background-color: #0065fc;
+}
+.backgroundGris {
+    background-color: #f2f2f2;
+}
+/* NAV */
+.navlien {
+    height: 100px;
+}
+.Lien {
+width: 25%;
+}
+.Liens {
+    width: 140px;
+    height: 99px;
+}
+.colorBleu {
+    color: #0065fc;
+}
+.colorGris {
+    color: #f2f2f2;
+}
+.colorlien2 {
+color: #0065fc;
+}
+.colorlien1 {
+color: black;
+}
+img {
+width: 100px;
+height: 50px;
+}
+.bordure {
+   border-top: 1px solid #0065fc; 
+}
+.bordure1 {
+    border-top: 1px solid transparent; 
+ }
+.mlogo {
+    margin-bottom: 7px;
+}
+/* HEADER */
+.bordureSearch {
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px solid #f2f2f2;
+}
+.paddingSearch {
+   padding-left: 20px;  
+}
+.recherche {
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.iconMap {
+height: 50px;
+width: 50px;
+border-radius: 10px 0 0 10px;
+}
+.button {
+  height: 50px;
+  width: 120px; 
+  color: white; 
+  cursor: pointer; 
+  border-radius: 0 10px 10px 0; 
+}
+/* Filtres */
+.margFiltre {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.filtre {
+   display: flex;
+   align-items: center; 
+}
+.margFiltreTitre {
+    margin-right: 20px;
+}
+.filtreTexteIcones {
+    border:  2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.filtreTexteIcones:hover > .filtreTexte {
+    color: #0065fc;
+}
+.filtreTexteIcones:hover > .filtreIcones {
+    color: white;
+    background-color: #0065fc;
+}
+.filtreTexte {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px;
+}
+
+.filtreIcones {
+    margin-left: -2px;
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: #0065fc;
+    background-color: #deebff;
+}
+/* INFO ICONE */
+.info {
+    display: flex;
+    align-items: center;
+    
+}
+.Icone {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f2f2f2;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+/* HEBERGEMENTS */
+.hebergements {
+    flex: 2;
+    height: 650px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.Populaires {
+    flex: 1;
+    height: 650px;
+    margin-left: 20px;
+    border-radius: 10px;   
+}
+.partieHebergements {
+    padding-left: 38px;
+    padding-right: 38px;
+}
+.partie1 {
+    margin-bottom: 10px;
+}
+.partie2 {
+    margin-top: 10px;
+}
+.cubeHergements {
+    width: 30%;
+    height: aut0;
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.partieDetail {
+    width: 90%;
+    
+}
+.imgAubergelaCannebiere img {
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+.imgHotelduPort img {
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+.imgHotelLesmouettes img {
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+.imgHoteldelamer img {
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+.imgAubergeLePanier img {
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+.imghotelchezAmina img {
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+/* Populaire */
+.blocPopulaires {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.blocPopulaires12 {
+    margin-bottom: 20px;
+}
+.fondPopulaires {
+    background-color: white;
+    height: auto;
+    padding: 1% 0 1% 1%;
+    border-radius: 20px;
+}
+.detailPopulaire {
+    width: 60%;
+    padding-left: 5%;
+}
+.imgHotellesoleildumatin img {
+    width: 200px;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 0 0 15px;
+}
+.imgAucoeurdeleau img {
+    width: 200px;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 0 0 15px;
+}
+.imgHoteltoutbleuetblanc img {
+    width: 200px;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 0 0 15px;
+}
+/* Activité */
+.Activites {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.grandblocActivites {
+   width: 100%;
+   height: 600px; 
+}
+.petitblocActivites {
+    width: 23%;
+    height: 600px; 
+ }
+
+/* reglage cube */
+.grandcubeActivites {
+    width: 23%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+.petitcubeActivite {
+   width: 100%;
+   border-radius: 15px;
+   box-shadow: 5px 5px 5px 1px #f2f2f2; 
+}
+/* fin reglage cube */
+.hauteurTitre {
+    height: 70px;
+}
+.titreActivites {
+   display: flex; 
+   justify-content: flex-start;
+   align-items: center;
+   padding-left: 5%;
+   width: 95%;
+}
+.imgVieuxPort img {
+    width: 100%;
+    height: 530px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+.imgFortdePomegues img {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+.imgIlesduFrioul img {
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+.imgParcNational img {
+    width: 100%;
+    height: 530px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+.imgNotreDames img {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+.imgParcLongchamp img {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+/* footer */
+.footer {
+    height: 300px;
+    margin-top: 100px;
+}
+.tailleblocfooter {
+    height: 150px;
+}
+.margefooter1 {
+margin-left: 15%;
+
+}
+.margefooter3 {
+    margin-right: 15%;
+    
+}
+
