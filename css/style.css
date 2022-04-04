@@ -1,6 +1,10 @@
 html, body {
     font-family: 'Raleway', sans-serif;  
 }
+.flexCentre2 {
+    display: flex;
+    align-items: center;
+}
 .flexCentre {
     display: flex;
     justify-content: center;
@@ -47,12 +51,16 @@ text-decoration: none;
 .backgroundGris {
     background-color: #f2f2f2;
 }
+
 /* NAV */
 .navlien {
-    height: 100px;
+    height: auto;
 }
 .Lien {
-width: 25%;
+width: 100%;
+}
+.Liens12 {
+   width: 60%; 
 }
 .Liens {
     width: 140px;
@@ -70,20 +78,19 @@ color: #0065fc;
 .colorlien1 {
 color: black;
 }
-img {
-width: 100px;
-height: 50px;
-}
 .bordure {
-   border-top: 1px solid #0065fc; 
+   border-top: 3px solid #0065fc; 
 }
 .bordure1 {
-    border-top: 1px solid transparent; 
+    border-top: 3px solid transparent; 
  }
 .mlogo {
     margin-bottom: 7px;
 }
 /* HEADER */
+.desktopNone {
+    display: none;
+}
 .bordureSearch {
     width: 400px;
     border-radius: 10px;
@@ -155,6 +162,7 @@ border-radius: 10px 0 0 10px;
 .info {
     display: flex;
     align-items: center;
+    padding-bottom: 30px;
     
 }
 .Icone {
@@ -165,35 +173,43 @@ border-radius: 10px 0 0 10px;
     margin-right: 5px;
 }
 /* HEBERGEMENTS */
+.texteHebergement {
+    padding-top: 20px;
+}
 .hebergements {
     flex: 2;
-    height: 650px;
+    height: 750px;
     margin-right: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .Populaires {
     flex: 1;
-    height: 650px;
+    height: 750px;
     margin-left: 20px;
-    border-radius: 10px;   
+    border-radius: 20px;   
 }
 .partieHebergements {
     padding-left: 38px;
     padding-right: 38px;
 }
+.affichtextePopulaire {
+    padding-bottom: 20px;
+} 
 .partie1 {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .partie2 {
     margin-top: 10px;
 }
 .cubeHergements {
     width: 30%;
-    height: aut0;
+    height: auto;
     background-color: white;
     padding: 5px;
     border-radius: 20px;
-    object-fit: cover;
+    /* rajoute pour voire la vesion mobile et desktop */
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    
 }
 .partieDetail {
     width: 90%;
@@ -205,6 +221,7 @@ border-radius: 10px 0 0 10px;
     background-size: cover;
     background-position: center;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 .imgHotelduPort img {
     width: 100%;
@@ -212,6 +229,7 @@ border-radius: 10px 0 0 10px;
     background-size: cover;
     background-position: center;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 .imgHotelLesmouettes img {
     width: 100%;
@@ -219,6 +237,7 @@ border-radius: 10px 0 0 10px;
     background-size: cover;
     background-position: center;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 .imgHoteldelamer img {
     width: 100%;
@@ -226,6 +245,7 @@ border-radius: 10px 0 0 10px;
     background-size: cover;
     background-position: center;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 .imgAubergeLePanier img {
     width: 100%;
@@ -233,6 +253,7 @@ border-radius: 10px 0 0 10px;
     background-size: cover;
     background-position: center;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 .imghotelchezAmina img {
     width: 100%;
@@ -240,45 +261,58 @@ border-radius: 10px 0 0 10px;
     background-size: cover;
     background-position: center;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 /* Populaire */
+.incoPopulaire {
+    padding-bottom: 28px;
+}
+.margPopulaire {
+    padding-top: 30px;
+}
+.textePopulaire {
+    padding-bottom: 20px;
+}
 .blocPopulaires {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 38px;
+    padding-right: 38px;
 }
 .blocPopulaires12 {
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 .fondPopulaires {
     background-color: white;
     height: auto;
-    padding: 1% 0 1% 1%;
+    padding: 1% 0 0% 1%;
     border-radius: 20px;
 }
 .detailPopulaire {
     width: 60%;
     padding-left: 5%;
 }
-.imgHotellesoleildumatin img {
-    width: 200px;
-    height: 160px;
+.imgPopulaire1 img {
+    width: 110px;
+    height: 174px;
     background-size: cover;
     background-position: center;
     border-radius: 15px 0 0 15px;
+    object-fit: cover;
 }
-.imgAucoeurdeleau img {
-    width: 200px;
-    height: 160px;
+.imgPopulaire2 img {
+    width: 110px;
+    height: 174px;
     background-size: cover;
     background-position: center;
     border-radius: 15px 0 0 15px;
+    object-fit: cover;
 }
-.imgHoteltoutbleuetblanc img {
-    width: 200px;
-    height: 160px;
+.imgPopulaire3 img {
+    width: 110px;
+    height: 174px;
     background-size: cover;
     background-position: center;
     border-radius: 15px 0 0 15px;
+    object-fit: cover;
 }
 /* Activité */
 .Activites {
@@ -322,6 +356,10 @@ border-radius: 10px 0 0 10px;
     background-size: cover;
     background-position: center;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
+}
+.imgVieuxPort {
+    width: 100%;
 }
 .imgFortdePomegues img {
     width: 100%;
@@ -329,6 +367,7 @@ border-radius: 10px 0 0 10px;
     background-size: cover;
     background-position: center;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 .imgIlesduFrioul img {
     width: 100%;
@@ -336,6 +375,7 @@ border-radius: 10px 0 0 10px;
     background-size: cover;
     background-position: center;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 .imgParcNational img {
     width: 100%;
@@ -343,6 +383,10 @@ border-radius: 10px 0 0 10px;
     background-size: cover;
     background-position: center;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
+}
+.imgParcNational {
+    width: 100%;
 }
 .imgNotreDames img {
     width: 100%;
@@ -350,6 +394,7 @@ border-radius: 10px 0 0 10px;
     background-size: cover;
     background-position: center;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 .imgParcLongchamp img {
     width: 100%;
@@ -357,21 +402,233 @@ border-radius: 10px 0 0 10px;
     background-size: cover;
     background-position: center;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 /* footer */
 .footer {
     height: 300px;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 .tailleblocfooter {
-    height: 150px;
+    height: 170px;
 }
 .margefooter1 {
-margin-left: 15%;
+margin-left: 3%;
 
 }
 .margefooter3 {
-    margin-right: 15%;
+    margin-right: 30%;
     
 }
+/* responsive */
 
+@media screen and (max-width: 1295px) {
+    .partieDetail {
+        min-height: 150px;
+    }
+    .hebergements {
+        min-height: auto;
+        padding: 20px;
+    }
+    .Populaires {
+        min-height: auto;
+        padding: 20px;
+    }
+    .tabletteTitrePopulaires {
+     margin-top: 0;   
+    }
+    .textePopulaire {
+        padding-bottom: 0;
+        padding-top: 27px;
+    }
+    .margPopulaire {
+        padding-top: 0;
+    }
+    .logoPop {
+        margin-top: 25px;
+    }
+}
+@media screen and (max-width: 990px) {
+    .mobileFiltre {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .filtreTexteIcones {
+        margin-bottom: 20px;
+    }
+    #herbergements {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .Populaires {
+        flex: none;
+        width: 90%;
+        margin-left: 0;
+        padding: 5%;
+    }
+    .hebergements {
+        flex: none;
+        width: 90%;
+        margin-right: 0;
+        margin-top: 50px;
+        padding: 5%;
+    }
+
+}
+@media screen and (max-width: 790px) {
+    .hebergements {
+    height: auto;
+    }
+    .partie1 {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .partie2 {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .cubeHergements {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .partieDetail {
+        min-height: auto;
+
+    }
+    .grandblocActivites {
+      flex-direction: column; 
+      height: auto;
+    }
+    .grandcubeActivites {
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .petitblocActivites {
+        width: 100%;
+        height: auto;
+    }
+    .petitcubeActivite {
+        margin-bottom: 50px;
+    }   
+    .imgVieuxPort img {
+        width: 100%;
+        height: 200px;
+    }
+    .imgFortdePomegues img {
+        max-width: 100%;
+        height: 200px;
+    }
+    .imgIlesduFrioul img {
+        max-width: 100%;
+        height: 200px;
+    }
+    .imgParcNational img {
+        width: 100%;
+        height: 200px;
+    }
+    .imgNotreDames img {
+        max-width: 100%;
+        height: 200px;
+    }
+    .imgParcLongchamp img {
+        max-width: 100%;
+        height: 200px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding-left: 20px;
+    }
+    .margefooter1 {
+        margin: 0;
+    }
+}
+@media screen and (max-width: 600px) {
+    .Lien {
+        flex-direction: row;
+    }
+    .Liens12 {
+        order: 1;
+        width: 100%;
+        margin-left: 0;
+    }
+    .lienMobile {
+        width: 50%;
+        border-top: none;
+        border-bottom: 3px solid #0065fc ;
+
+    }
+    .lienMobiles {
+        width: 50%;
+        border-top: none;
+        border-bottom: 3px solid #f2f2f2 ;
+
+    }
+    .Lien {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .LienMobile:hover {
+        border-top: 0;
+        border-bottom: 5px solid #0065fc;
+    }
+    .mobileTitre {
+        font-size: x-large;
+    }
+    .bordureSearch {
+        width: auto;
+        border: none;
+    }
+    .recherche {
+        width: 200px;
+        border-bottom: 1px solid #f2f2f2;
+        border-top: 1px solid #f2f2f2;
+    }
+    .button {
+        width: 50px;
+        border-radius: 15px;
+    }
+    .desktopNone {
+        display: block;
+    }
+    .mobileNone {
+        display: none;
+    }
+    .margFiltre {
+        padding-left: 5%;
+    }
+    .mobileEconomique {
+        margin-right: 5px;
+    }
+    .filtreTexte {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    .mobileFamilial {
+        margin-right: 0;
+    }
+    .info {
+        padding-left: 5%;
+    }
+    .blocPopulaires {
+        border-radius: 0%;
+    }
+    .hebergements {
+        background-color: white;
+    }
+    .mobileTitreParagraphe {
+        padding-left: 5%;
+    }
+    .grandblocActivites {
+        padding: 5%;
+        width: 90%;
+    }
+    html, body {
+        margin: 0;
+        padding: 0;
+    }
+
+}
